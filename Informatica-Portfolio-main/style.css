@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.webHeader{
+    background: #2B2D42;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.headerText {
+    margin-top: -10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+
+body {
+    background: white;
+}
+
+.fotoDiv {
+    height: 200px;
+}
+
+.navigationMenu {
+    vertical-align: top;
+    margin: -22px;
+    height: 2.5rem;
+    background: #2B2D42;
+    text-align: center;
+    position: sticky;
+}
+
+.menuButton {
+    height: 2.5rem;
+    background: #A9B4C2;
+    border-color: transparent;
+    color: #EDEAD0;
+    border-bottom-color: black;
+    vertical-align: top;
+}
+
+.menuButton:hover {
+      background-color:#415A77;
+      border-bottom-width: thick;
+      color: aliceblue;
+      transition: 0.4s;
+      height: 45px;
+}
+
+body {
+    background-color: white;
+}
+
+#test {
+    background-image: url("programmeren_plaatje.jpeg");
+    background-repeat: no-repeat;
+    height: 20rem;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -1.3rem;
+    margin-bottom: 1.45rem;
+}
