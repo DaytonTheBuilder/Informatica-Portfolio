@@ -7,3 +7,6 @@
 #44A1A0
 #247B7B
 #5296A5
+
+#Menu button
+#EDEAD0
