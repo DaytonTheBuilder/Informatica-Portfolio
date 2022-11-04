@@ -16,7 +16,6 @@ body {
     margin: auto;
     width: 100%;
     max-width: 90rem;
-    text-align: center;
     background-color: #E7EEF8;
     min-height: 30rem;
 }
@@ -27,12 +26,14 @@ body {
 
 #webHeader {
     background-color: var(--header-background);
+    text-align: center;
 }
 
 #navigationMenu {
     background-color: var(--navigation-background);
     position: sticky;
     height: 2.5rem;
+    text-align: center;
 }
 
 .menuButton {
@@ -62,3 +63,7 @@ body {
     max-width: 90rem;
     margin: auto;
 }
+
+#textElementsContainer {
+    margin: auto;
+    width: 60%;
