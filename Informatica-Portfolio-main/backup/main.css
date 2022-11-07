@@ -1,0 +1,70 @@
+:root {
+    --header-background:#470FF4;
+    --navigation-background:#4056F4;
+    --menuButton-background:#4F35CB;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#page {
+    margin: auto;
+    width: 100%;
+    max-width: 90rem;
+    background-color: #E7EEF8;
+    min-height: 30rem;
+}
+
+.headerText {
+    color: aliceblue;
+}
+
+#webHeader {
+    background-color: var(--header-background);
+    text-align: center;
+}
+
+#navigationMenu {
+    background-color: var(--navigation-background);
+    position: sticky;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.menuButton {
+    height: 2.5rem;
+    background: var(--menuButton-background);
+    border-color: transparent;
+    color: white;
+    border-bottom-color: black;
+    vertical-align: top;
+}
+
+.menuButton:hover {
+      background-color: #3F25BB;
+      border-bottom-width: thick;
+      color: aliceblue;
+      transition: 0.4s;
+      height: 45px;
+}
+
+.menuButton:focus {
+    background-color: #1F059B;
+}
+
+#webFooter {
+    text-align: center;
+    background-color: var(--header-background);
+    max-width: 90rem;
+    margin: auto;
+}
+
+#textElementsContainer {
+    margin: auto;
+    width: 60%;
+    color: #5398BE;
