@@ -1,10 +1,2 @@
-@keyframes homeFadeIn {
-    from {background-color: black;}
-    to {background-color: transparent;}
-}
 
-body {
-    animation-name: homeFadeIn;
-    animation-duration: 4s;
-}
 
