@@ -32,6 +32,7 @@ body {
 }
 
 .menuButton {
+    transition: 0.2s;
     height: 2.5rem;
     background: var(--menuButton-background);
     border-color: transparent;
@@ -53,9 +54,9 @@ body {
 }
 
 #webFooter {
+    height: 1.2rem;
     text-align: center;
     background-color: var(--header-background);
-    margin: auto;
 }
 
 #textElementsContainer {
@@ -64,9 +65,20 @@ body {
 }
 
 p {
-    color: #625171;
+    color: #423151;
 }
 
 h2 {
     color: #5398BE
 }
+
+headerText {
+    color: #C6D4FF;
+    margin: 0;
+}
+
+#footerText {
+    color: #C6D4FF;
+}
+
+
