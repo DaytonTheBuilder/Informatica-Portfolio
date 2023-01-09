@@ -8,6 +8,24 @@ h1,h2,h3,h4,h5 {
     margin: 0;
 }
 
+@keyframes textElementAnimation {
+  from {
+    margin-top: 10rem;
+    width: 40%;}
+  to {
+    margin-top: 0rem;
+    width: 80%;}
+}
+
+@keyframes menuButtonAnimation {
+  from {
+        margin-right: 25px;
+    }
+  to {
+        margin-right: 0px;
+    }
+}
+
 body {
     margin: 0;
 }
@@ -40,6 +58,8 @@ body {
     color: white;
     border-bottom-color: black;
     vertical-align: top;
+    animation-name: menuButtonAnimation;
+    animation-duration: 1s;
 }
 
 .menuButton:hover {
@@ -62,8 +82,10 @@ body {
 
 #textElementsContainer {
     margin: auto;
+    background: #e1ecfd;
+    animation-name: textElementAnimation;
+    animation-duration: 3s;
     width: 80%;
-    background: #e1ecfd
 }
 
 p {
@@ -88,5 +110,4 @@ headerText {
 #footerText {
     color: #C6D4FF;
 }
-
 
