@@ -95,6 +95,11 @@ p {
     font-size: 18px;
 }
 
+h1 {
+    color: #33789E;
+    font-size: 40px;
+}
+
 h2 {
     color: #5398BE;
     font-size: 30px;
@@ -113,3 +118,8 @@ headerText {
     color: #C6D4FF;
 }
 
+iframe {
+    height: 70vh;
+    width: 100%;
+    min-height: 25rem;
+}

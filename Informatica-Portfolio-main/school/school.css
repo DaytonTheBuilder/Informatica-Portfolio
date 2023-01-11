@@ -3,3 +3,16 @@ iframe {
     min-height: 25rem;
     height: 82vh;
 }
+
+#logoGHL {
+    height: 15rem;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+table {
+    background-color: white;
+    font-size: 20px;
+}
