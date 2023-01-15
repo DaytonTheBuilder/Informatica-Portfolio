@@ -1,0 +1,117 @@
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+/* Deze animatie laat de text element container bij de binnenkomst van een pagina een beweging maken.
+Daarnaast wordt er aan het begin wat transparantheid aan de text element container gegeven, waarnaar dit uiteindelijk volledig verwijderd wordt. */
+@keyframes textElementAnimation {
+  from {
+    opacity: 20%;
+    margin-top: 10rem;
+    width: 40%;}
+  to {
+    opacity: 100%;
+    margin-top: 0rem;
+    width: 80%;}
+}
+
+/* Deze animatie laat alle menu knoppen bij de binnenkomst van de pagina, van een wat verspreide positie, bij elkaar komen. */
+@keyframes menuButtonAnimation {
+  from {
+        margin-right: 25px;
+    }
+  to {
+        margin-right: 0px;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+#page {
+    margin: auto;
+    width: 100%;
+    background-color: #E7EEF8;
+    min-height: 98.5vh;
+}
+
+#webHeader {
+    background-color: #E7EEF8;
+}
+
+#navigationMenu {
+    background-color: #4056F4;
+    position: sticky;
+    height: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.menuButton {
+    transition: 0.2s;
+    height: 3.5rem;
+    width: 3.1rem;
+    background: #4F35CB;
+    border-color: transparent;
+    color: white;
+    border-bottom-color: black;
+    vertical-align: top;
+    animation-name: menuButtonAnimation;
+    animation-duration: 1s;
+}
+
+.menuButton:hover {
+      background-color: #3F25BB;
+      border-bottom-width: thick;
+      color: aliceblue;
+      transition: 0.4s;
+      height: 45px;
+}
+
+.menuButton:focus {
+    background-color: #1F059B;
+}
+
+#webFooter {
+    height: 1.2rem;
+    text-align: center;
+    background-color: #470FF4;
+}
+
+#textElementsContainer {
+    margin: auto;
+    background: #e1ecfd;
+    animation-name: textElementAnimation;
+    animation-duration: 3s;
+    width: 80%;
+}
+
+p {
+    color: #423151;
+    font-size: 18px;
+}
+
+h1 {
+    color: #33789E;
+    font-size: 40px;
+}
+
+h2 {
+    color: #5398BE;
+    font-size: 30px;
+}
+
+h3 {
+    color: #5398BE;;
+}
+
+#footerText {
+    color: #C6D4FF;
+}
+
+iframe {
+    height: 70vh;
+    width: 100%;
+    min-height: 25rem;
+}

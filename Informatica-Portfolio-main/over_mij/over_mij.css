@@ -1,0 +1,28 @@
+@keyframes colorTransferAnimation {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color:cyan;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.icon {
+    height: 3.5rem;
+}
+
+#persoonlijkeFoto {
+    height: 30rem;
+}
+
+img:hover {
+    border-radius: 20px;
+    animation-name: colorTransferAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
